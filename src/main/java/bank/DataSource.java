@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class DataSource {
 
   public static Connection connect() {
-    String db_file = "jdbc:sqllite:resources/bank.db";
+    String db_file = "jdbc.sqllite:resources/bank.db";
     Connection connection = null;
 
     try {
